@@ -27,6 +27,7 @@ switch output fall to ground voltage.
 
 
 ### Schematic for 1-bit DAC
+![Screenshot from 2023-02-14 11-16-12](https://user-images.githubusercontent.com/110079729/218650488-805fe3be-b989-4868-8383-a344af4e6205.png)
 
 
 ### Output Waveform for 1-bit DAC
