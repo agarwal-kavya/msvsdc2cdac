@@ -21,9 +21,10 @@ switch output fall to ground voltage.
 ## PRE-LAYOUT SIMULATION
 ### Schematic for DAC Switch
 
-As seen in Figure 10, digital inputs are the control terminals to the switches of a DAC. 
+As seen in Schematic, digital inputs are the control terminals to the switches of a DAC. 
 Switches are used to switch the output voltage in between Vdd and GND based on the 
 digital bits.
+
 ![Screenshot from 2023-02-13 23-01-27](https://user-images.githubusercontent.com/110079729/218647760-878ff4ea-4f8d-4cc3-b434-34f35081c38d.png)
 
 The logic of this switch is implemented using a 2 to 1 MUX.
@@ -34,14 +35,15 @@ The logic of this switch is implemented using a 2 to 1 MUX.
 
 
 ### Schematic for 1-bit DAC
+
 DAC switches take the digital bits as inputs and switch the output voltage in between Vref 
 and GND.
 
 ![Screenshot from 2023-02-14 11-16-12](https://user-images.githubusercontent.com/110079729/218650488-805fe3be-b989-4868-8383-a344af4e6205.png)
 
 Based on the 
-digital bits output of DAC is calculated as: ` 𝑉𝑜𝑢𝑡𝐶𝑡𝑜𝑡𝑎l = 𝐶𝑒𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 ∗ 𝑉𝑟𝑒𝑓 ∗ (∑𝑏𝑖2^(−(𝑁−𝑖)))  `
-Where bi is the digital input bits from Pulse input.
+digital bits output of DAC is calculated as: ` 𝑉𝑜𝑢𝑡𝐶𝑡𝑜𝑡𝑎l = 𝐶𝑒𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 ∗ 𝑉𝑟𝑒𝑓 ∗ (∑𝑏𝑖2^(−(𝑁−𝑖)))  ` ,
+where bi is the digital input bits from Pulse input.
  Ctotal is the effective output 
 capacitance of the entire C2C ladder network which is equal to 2Cu where Cu is the unit 
 capacitance.
