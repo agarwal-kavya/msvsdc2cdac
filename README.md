@@ -113,6 +113,8 @@ low compared to binary weighted capacitor array DAC which will have a total of 1
 capacitance.
 
 ### Output Waveforms for 10-bit DAC
+
+Here v0 is the LSB bit and v9 acts as MSB. The inputs are provided using a pulse Signal. 
 ![Screenshot from 2023-02-17 01-16-42](https://user-images.githubusercontent.com/110079729/219585011-aff8da1c-95de-4dc7-9457-a00faf8e2145.png)
 
 The Output waveform showing the Output reaching 1V with smaller steps.
