@@ -4,7 +4,8 @@ This project focusses on designing a low power and efficient DAC design in Caden
 
 ## Reference Circuit Diagram
 
-### The schematic of C2C DAC
+### C2C DAC architecture with DAC switches
+
 ![Screenshot 2023-02-14 105028](https://user-images.githubusercontent.com/110079729/218646473-ea1c1010-3188-44c3-b67d-438eaecffb9f.png)
 
 DAC switches take the digital bits as inputs and switch the output voltage in between Vref and GND.
@@ -111,11 +112,16 @@ Total capacitance spread of the C2C 10-bit DAC is 29Cu which is drastically
 low compared to binary weighted capacitor array DAC which will have a total of 1024Cu
 capacitance.
 
-### Output Waveform for 10-bit DAC
+### Output Waveforms for 10-bit DAC
 ![Screenshot from 2023-02-17 01-16-42](https://user-images.githubusercontent.com/110079729/219585011-aff8da1c-95de-4dc7-9457-a00faf8e2145.png)
 
+The Output waveform showing the Output reaching 1V with smaller steps.
 ![Screenshot from 2023-02-17 12-30-14](https://user-images.githubusercontent.com/110079729/219585021-ff71b11d-3b8d-466e-a02a-0dba062c3947.png)
 
+
+ For DAC topology C2C architecture of 10bit resolution is 
+chosen over binary-weighted architecture because of its remarkable speed and higher 
+bandwidth, at a cost of distortions caused by parasitic capacitances.
 
 
 
