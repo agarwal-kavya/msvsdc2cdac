@@ -39,8 +39,9 @@ switch output fall to ground voltage.
 ![Screenshot from 2023-02-17 00-34-10](https://user-images.githubusercontent.com/110079729/219584193-b936b182-4a58-4123-b880-d8ee1fbdc514.png)
 
 
-#### Output ![Screenshot from 2023-02-17 00-35-22](https://user-images.githubusercontent.com/110079729/219584210-7786821a-40f8-4807-92e2-7248da812bdd.png)
-Waveform for 2-bit DAC
+#### Output Waveform for 2-bit DAC
+![Screenshot from 2023-02-17 00-35-22](https://user-images.githubusercontent.com/110079729/219584210-7786821a-40f8-4807-92e2-7248da812bdd.png)
+
 
 #### Schematic for 3-bit DAC
 ![Screenshot from 2023-02-17 00-36-58](https://user-images.githubusercontent.com/110079729/219584232-26b95530-5dce-492b-86bf-c5746d475cdc.png)
