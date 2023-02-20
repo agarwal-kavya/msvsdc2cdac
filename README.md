@@ -17,6 +17,18 @@ switch output fall to ground voltage.
 ### Schematic of DAC_switch
 ![Screenshot 2023-02-14 105051](https://user-images.githubusercontent.com/110079729/218646703-548dc433-2227-44a1-a17e-fa51806133f8.png)
 
+
+## IP Design Specifications
+
+| Parameter| Description| Min | Type | Max | Unit | Condition |
+| :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
+|VDD|Digital supply voltage||1.0||V|T=-40 to 85C|
+|VREF|Reference voltage|||1.0|V|T=-40 to 85C|
+|RES|Resolution| |10||bit|T=27C|
+|VFS|Full Scale Voltage|0| |0.999| V |T=27C|
+
+
+
 ## Simulation Results
 
 ## PRE-LAYOUT SIMULATION
