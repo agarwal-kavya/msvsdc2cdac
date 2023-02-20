@@ -2,9 +2,33 @@
 
 This project focusses on designing a low power and efficient DAC design in Cadence. For DAC topology C2C architecture of 10bit resolution is chosen over binary-weighted architecture because of its remarkable speed and higher bandwidth, at a cost of distortions caused by parasitic capacitances. 
 
-## Reference Circuit Diagram
 
-### C2C DAC architecture with DAC switches
+
+## Table of Contents
+- [1. Introduction to C2C DAC](#1-Introduction-to-C2C-DAC)
+- [2. C2C DAC architecture with DAC switches](#2-C2C-DAC-architecture-with-DAC-switches)
+- [3. Schematic of DAC_switch](#3-Schematic-of-DAC_switch)
+- [4. IP Design Specifications](#4-IP-Design-Specification)
+- [5. Simulation Results](#5-Simulation-Results)
+
+
+
+
+## 1. Introduction to C2C DAC
+
+DACs convert discrete digital signals into continuous analog signals. Among all the DAC
+architectures Capacitive DACs are preferred because of their reduced design complexity,
+optimized power and improved matching. Exclusively for medium to high resolution
+applications capacitive DACs are chosen over resistive and current steering DACs. Even
+though the Capacitive DAC based solution provides many benefits, it still faces a
+bottleneck in sizing the capacitors, capacitor mismatch and parasitic capacitance degrading
+the DAC performance. With technology scaling, digital solutions will also provide better
+portability between IC fabrication technologies and flexibility, and ultimately result in
+lower power and cost.
+
+
+
+## 2. C2C DAC architecture with DAC switches
 
 ![Screenshot 2023-02-14 105028](https://user-images.githubusercontent.com/110079729/218646473-ea1c1010-3188-44c3-b67d-438eaecffb9f.png)
 
@@ -14,11 +38,15 @@ and M4 will be OFF. This makes the switch output raise to Vdd. If the digital bi
 M3 and M4 transistors will be ON, transistors M1 and M2 will be OFF. This makes the 
 switch output fall to ground voltage.
 
-### Schematic of DAC_switch
+## 3. Schematic of DAC_switch
+
+Switches are used to switch the output voltage in between Vdd and GND based on the 
+digital bits.
+
 ![Screenshot 2023-02-14 105051](https://user-images.githubusercontent.com/110079729/218646703-548dc433-2227-44a1-a17e-fa51806133f8.png)
 
 
-## IP Design Specifications
+## 4. IP Design Specifications
 
 | Parameter| Description| Min | Type | Max | Unit | Condition |
 | :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
@@ -29,9 +57,9 @@ switch output fall to ground voltage.
 
 
 
-## Simulation Results
+## 5. Simulation Results
 
-## PRE-LAYOUT SIMULATION
+## 5.1 PRE-LAYOUT SIMULATION
 ### Schematic for DAC Switch
 
 As seen in Schematic, digital inputs are the control terminals to the switches of a DAC. 
@@ -174,7 +202,7 @@ chosen over binary-weighted architecture because of its remarkable speed and hig
 bandwidth, at a cost of distortions caused by parasitic capacitances.
 
 
-## PRE-LAYOUT CHARACTERIZATION
+## 6. PRE-LAYOUT CHARACTERIZATION
 
 Waveforms showing Actual and Ideal Outputs: 
 
