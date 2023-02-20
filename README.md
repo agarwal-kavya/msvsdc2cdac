@@ -178,7 +178,7 @@ Characteristics Table:
 
 | Parameter| Pre-layout | 
 | :---:  | :-: | 
-|DNL| -0.999893345 LSB to 2.03065020 LSB | 
-|INL| -1.953038429 LSB to 0.527216491 LSB| 
+|DNL| -0.44 LSB to 0.26 LSB | 
+|INL| -0.487 LSB to 0.057 LSB| 
 |Gain Error| 0 | 
-|Offset Error| 2.12E-07 V | 
+|Offset Error| -0.00099 | 
