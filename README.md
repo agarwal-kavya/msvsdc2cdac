@@ -218,7 +218,7 @@ chosen over binary-weighted architecture because of its remarkable speed and hig
 bandwidth, at a cost of distortions caused by parasitic capacitances.
 
 
-## 6. PRE-LAYOUT CHARACTERIZATION
+## 6. PRE LAYOUT CHARACTERIZATION
 
 Waveforms showing Actual and Ideal Outputs: 
 
