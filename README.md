@@ -162,6 +162,23 @@ chosen over binary-weighted architecture because of its remarkable speed and hig
 bandwidth, at a cost of distortions caused by parasitic capacitances.
 
 
+## PRE-LAYOUT CHARACTERIZATION
+
+Waveforms showing Actual and Ideal Outputs: 
+
+![Screenshot from 2023-02-20 23-15-04](https://user-images.githubusercontent.com/110079729/220181456-54c71e75-2d0f-407a-a73a-4093ede3cb60.png)
 
 
+DNL and INL Characteristics:
 
+![Screenshot from 2023-02-20 23-51-39](https://user-images.githubusercontent.com/110079729/220181569-c28ea6c0-fe0c-44de-b9ad-9832e83c4749.png)
+
+
+Characteristics Table:
+
+| Parameter| Pre-layout | 
+| :---:  | :-: | 
+|DNL| -0.999893345 LSB to 2.03065020 LSB | 
+|INL| -1.953038429 LSB to 0.527216491 LSB| 
+|Gain Error| 0 | 
+|Offset Error| 2.12E-07 V | 
