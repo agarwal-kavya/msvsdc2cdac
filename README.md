@@ -21,7 +21,7 @@ This project focusses on designing a low power and efficient DAC design in Caden
   * [ 8-Bit DAC subcircuit](#8bit-dac-subcircuit)
   * [ 9-Bit DAC subcircuit](#9bit-dac-subcircuit)
   * [ 10-Bit-DAC](#10-bit-dac)
-- [6. Pre Layout Characterization ](#PRE-LAYOUT-CHARACTERIZATION)
+- [6. Pre Layout Characterization ](#6-PRE-LAYOUT-CHARACTERIZATION)
 
 
 
