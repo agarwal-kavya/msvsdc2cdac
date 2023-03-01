@@ -207,8 +207,6 @@ capacitance.
 
 Here v0 is the LSB bit and v9 acts as MSB. The inputs are provided using a pulse Signal. 
 
-![Screenshot from 2023-02-17 01-16-42](https://user-images.githubusercontent.com/110079729/219585011-aff8da1c-95de-4dc7-9457-a00faf8e2145.png)
-
 The Output waveform showing the Output reaching 1.8V with smaller steps.
 
 ![Screenshot from 2023-03-01 08-09-08](https://user-images.githubusercontent.com/110079729/222167689-ad728c03-34ea-49cc-8fb4-6e9784518cd1.png)
