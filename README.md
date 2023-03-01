@@ -237,3 +237,24 @@ Characteristics Table:
 |INL| -0.487 LSB to 0.057 LSB| 
 |Gain Error| 0 | 
 |Offset Error| -0.001757 | 
+
+
+
+## 7. Contributors 
+
+- **Kavya Agarwal** 
+- **Kunal Ghosh** 
+
+## 8. Acknowledgments
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Steven Bos
+- 
+## 9. Contact Information
+
+- Kavya Agarwal, Postgraduate Student, International Institute of Information Technology, Bangalore  kavya11.ag@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+## 10. References
+- [kunalg123/avsddac_workshop](https://github.com/kunalg123/avsddac_workshop#readme)
+- [Wright State University - 10 bit DAC Design](https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=3253&context=etd_all)
