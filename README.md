@@ -66,7 +66,7 @@ digital bits.
 | :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
 |VDD|Digital supply voltage||1.8||V|T=-40 to 85C|
 |VREFH|Reference voltage high|||1.8|V|T=-40 to 85C|
-|VREFL|Reference voltage low|||0.0|V|T=-40 to 85C|
+|VREFL|Reference voltage low|0.0|||V|T=-40 to 85C|
 |RES|Resolution| |10||bit|T=27C|
 |VFS|Full Scale Voltage|0| |1.7982| V |T=27C|
 
