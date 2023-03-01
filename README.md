@@ -64,10 +64,11 @@ digital bits.
 
 | Parameter| Description| Min | Type | Max | Unit | Condition |
 | :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
-|VDD|Digital supply voltage||1.0||V|T=-40 to 85C|
-|VREF|Reference voltage|||1.0|V|T=-40 to 85C|
+|VDD|Digital supply voltage||1.8||V|T=-40 to 85C|
+|VREFH|Reference voltage high|||1.8|V|T=-40 to 85C|
+|VREFL|Reference voltage low|||0.0|V|T=-40 to 85C|
 |RES|Resolution| |10||bit|T=27C|
-|VFS|Full Scale Voltage|0| |0.999| V |T=27C|
+|VFS|Full Scale Voltage|0| |1.7982| V |T=27C|
 
 
 
@@ -208,9 +209,9 @@ Here v0 is the LSB bit and v9 acts as MSB. The inputs are provided using a pulse
 
 ![Screenshot from 2023-02-17 01-16-42](https://user-images.githubusercontent.com/110079729/219585011-aff8da1c-95de-4dc7-9457-a00faf8e2145.png)
 
-The Output waveform showing the Output reaching 1V with smaller steps.
+The Output waveform showing the Output reaching 1.8V with smaller steps.
 
-![Screenshot from 2023-02-17 12-30-14](https://user-images.githubusercontent.com/110079729/219585021-ff71b11d-3b8d-466e-a02a-0dba062c3947.png)
+![Screenshot from 2023-03-01 08-09-08](https://user-images.githubusercontent.com/110079729/222167689-ad728c03-34ea-49cc-8fb4-6e9784518cd1.png)
 
 
  For DAC topology C2C architecture of 10bit resolution is 
@@ -222,13 +223,11 @@ bandwidth, at a cost of distortions caused by parasitic capacitances.
 
 Waveforms showing Actual and Ideal Outputs: 
 
-![Screenshot from 2023-02-20 23-15-04](https://user-images.githubusercontent.com/110079729/220181456-54c71e75-2d0f-407a-a73a-4093ede3cb60.png)
-
+![Screenshot from 2023-03-01 08-13-42](https://user-images.githubusercontent.com/110079729/222167242-6daa7ff2-a753-4533-bddb-bfb02f396009.png)
 
 DNL and INL Characteristics:
 
-![Screenshot from 2023-02-20 23-51-39](https://user-images.githubusercontent.com/110079729/220181569-c28ea6c0-fe0c-44de-b9ad-9832e83c4749.png)
-
+![Screenshot from 2023-03-01 08-21-01](https://user-images.githubusercontent.com/110079729/222167358-27d0fe0a-504b-4654-a307-e8837c362cf8.png)
 
 Characteristics Table:
 
@@ -237,4 +236,4 @@ Characteristics Table:
 |DNL| -0.44 LSB to 0.26 LSB | 
 |INL| -0.487 LSB to 0.057 LSB| 
 |Gain Error| 0 | 
-|Offset Error| -0.00099 | 
+|Offset Error| -0.001757 | 
