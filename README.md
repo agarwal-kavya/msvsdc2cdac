@@ -206,7 +206,6 @@ capacitance.
 ### Output Waveforms for 10-bit DAC
 
 Here v0 is the LSB bit and v9 acts as MSB. The inputs are provided using a pulse Signal. 
-
 The Output waveform showing the Output reaching 1.8V with smaller steps.
 
 ![Screenshot from 2023-03-01 08-09-08](https://user-images.githubusercontent.com/110079729/222167689-ad728c03-34ea-49cc-8fb4-6e9784518cd1.png)
