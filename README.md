@@ -21,12 +21,8 @@ This project focusses on designing a low power and efficient DAC design in Caden
   * [ 8-Bit DAC subcircuit](#8bit-dac-subcircuit)
   * [ 9-Bit DAC subcircuit](#9bit-dac-subcircuit)
   * [ 10-Bit-DAC](#10-bit-dac)
-- [6. Pre Layout Characterization ](#6-PRE-LAYOUT-CHARACTERIZATION)
-
-
-
-
-
+- [6. Schematic for Layout ](#6-Schematic-for-Layout)
+- [7. Layout ](#7-LAYOUT)
 
 ## 1. Introduction to C2C DAC
 
@@ -109,9 +105,9 @@ capacitance.
 
 ### Output Waveform for 1-bit DAC
 
-![Screenshot from 2023-02-14 01-36-12](https://user-images.githubusercontent.com/110079729/218647813-f60c41b8-46b8-4721-bf7a-bbcaada4a462.png)
+![Screenshot (501)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/071c4a81-757a-4850-a96c-51510b7fb4f6)
 
-The output here reaches to 500mV based on the calculations.
+The output here reaches to 900mV based on the calculations.
 
 ## 2-Bit DAC subcircuit
 ### Schematic for 2-bit DAC
@@ -121,7 +117,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 2-bit DAC
 
-![Screenshot from 2023-02-17 00-35-22](https://user-images.githubusercontent.com/110079729/219584210-7786821a-40f8-4807-92e2-7248da812bdd.png)
+![Screenshot (499)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/c436a013-2e00-4e32-9b48-5a60fc26b6a4)
 
 
 ## 3-Bit DAC subcircuit
@@ -131,7 +127,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 3-bit DAC
 
-![Screenshot from 2023-02-17 00-39-38](https://user-images.githubusercontent.com/110079729/219584267-edfe66c2-535d-4847-bbc9-2dccf70b5b42.png)
+![Screenshot (498)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/c5e77d84-ae9f-4822-9f7f-67fa5383bac0)
 
 
 ## 4-Bit DAC subcircuit
@@ -141,7 +137,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 4-bit DAC
 
-![Screenshot from 2023-02-17 00-43-24](https://user-images.githubusercontent.com/110079729/219584283-d60d0bbc-2e27-47a2-9c91-dad711caeebe.png)
+![Screenshot (497)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/33d845e9-7d95-4d1a-9241-6d146a7b44cd)
 
 
 ## 5-Bit DAC subcircuit
@@ -151,7 +147,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 5-bit DAC
 
-![Screenshot from 2023-02-17 00-48-59](https://user-images.githubusercontent.com/110079729/219584531-9a0ec31f-e2a4-473d-9a05-20303781d354.png)
+![Screenshot (496)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/6e614e4d-f928-4062-83ba-62d542b53ab4)
 
 
 ## 6-Bit DAC subcircuit
@@ -161,7 +157,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 6-bit DAC
 
-![Screenshot from 2023-02-17 12-42-32](https://user-images.githubusercontent.com/110079729/219585146-b562afa5-c255-4fb9-bb20-9de33c5bac3e.png)
+![Screenshot (495)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/a9120fc3-a65e-499a-bbf1-fd6e42866ca7)
 
 
 ## 7-Bit DAC subcircuit
@@ -171,7 +167,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 7-bit DAC
 
-![Screenshot from 2023-02-17 12-37-05](https://user-images.githubusercontent.com/110079729/219585086-8871a68d-7488-4ea0-96d4-eb5d3ceb19fb.png)
+![Screenshot (494)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/bf165669-94d7-40de-ac09-153aa83e452a)
 
 
 ## 8-Bit DAC subcircuit
@@ -181,7 +177,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 8-bit DAC
 
-![Screenshot from 2023-02-17 01-06-07](https://user-images.githubusercontent.com/110079729/219584821-5e03df81-0f7f-4768-a623-45a90844b845.png)
+![Screenshot (493)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/ad7dc420-01b9-4e48-b412-fa053fbbe6e2)
 
 
 ## 9-Bit DAC subcircuit
@@ -191,7 +187,7 @@ The output here reaches to 500mV based on the calculations.
 
 ### Output Waveform for 9-bit DAC
 
-![Screenshot from 2023-02-17 01-11-35](https://user-images.githubusercontent.com/110079729/219584954-9c7726b9-8762-4202-b8bd-46d1af9899b3.png)
+![Screenshot (492)](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/2c44088d-6ce7-4027-b005-b385091d1327)
 
 
 ## 10-Bit DAC 
@@ -235,23 +231,41 @@ Characteristics Table:
 |Gain Error| 0 | 
 |Offset Error| -0.001757 | 
 
+## 7. Schematic for Layout
+
+The schematic obtained by replacing all the voltage sources is as:
+
+![sch](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/72ba7eff-8aa9-4326-8518-308d3216322b)
 
 
-## 7. Contributors 
+## 8. LAYOUT
+
+The obtained layout is as:
+
+![lay](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/30939c8d-9cf3-41b9-bc06-e4ad63fd9a0c)
+
+
+## 9. Contributors 
 
 - **Kavya Agarwal** 
 - **Kunal Ghosh** 
 
-## 8. Acknowledgments
+## 10. Acknowledgments
 
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 - Steven Bos
-- 
-## 9. Contact Information
+
+
+## 11. Contact Information
 
 - Kavya Agarwal, Postgraduate Student, International Institute of Information Technology, Bangalore  kavya11.ag@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
-## 10. References
+
+## 12. Future Work
+
+- The post layout simulation has to be carried out for the design.
+
+## 13. References
 - [kunalg123/avsddac_workshop](https://github.com/kunalg123/avsddac_workshop#readme)
 - [Wright State University - 10 bit DAC Design](https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=3253&context=etd_all)
