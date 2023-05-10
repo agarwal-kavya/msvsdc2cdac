@@ -1,0 +1,71 @@
+// Generated for: spectre
+// Generated on: May 10 11:49:13 2023
+// Design library name: Mixed_signals
+// Design cell name: DAC_1bit
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: Mixed_signals
+// Cell name: DAC_switch
+// View name: schematic
+subckt DAC_switch D GND Out Vdd
+    M5 (net14 D GND GND) n18 w=0.42*10 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M1 (Out net14 GND GND) n18 w=6 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+    M0 (Out D Vdd GND) n18 w=6 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+    M4 (net14 D Vdd Vdd) p18 w=3*0.42*10 l=0.18 as=0.1984 ad=0.1984 \
+        ps=1.88 pd=1.88 m=1
+    M3 (GND D Out Vdd) p18 w=3 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+    M2 (Vdd net14 Out Vdd) p18 w=3 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+ends DAC_switch
+// End of subcircuit definition.
+
+// Library name: Mixed_signals
+// Cell name: DAC_1bit
+// View name: schematic
+C2 (Vout net19) cmim_sq w=4 l=4 m=1
+C3 (net17 Vout) cmim_sq w=4 l=4 m=1
+C21 (net3 net4) cmim_sq w=4 l=4 m=1
+C20 (net4 net6) cmim_sq w=4 l=4 m=1
+C18 (net8 net10) cmim_sq w=4 l=4 m=1
+C16 (net14 net15) cmim_sq w=4 l=4 m=1
+C17 (net10 net14) cmim_sq w=4 l=4 m=1
+C15 (net15 net11) cmim_sq w=4 l=4 m=1
+C14 (net11 net17) cmim_sq w=4 l=4 m=1
+C12 (net14 net13) cmim_sq w=4 l=4 m=1
+C13 (net15 net16) cmim_sq w=4 l=4 m=1
+C11 (net10 net9) cmim_sq w=4 l=4 m=1
+C10 (net8 net7) cmim_sq w=4 l=4 m=1
+C7 (net3 net1) cmim_sq w=4 l=4 m=1
+C6 (net3 GND) cmim_sq w=4 l=4 m=1
+C4 (net17 net18) cmim_sq w=4 l=4 m=1
+C5 (net11 net12) cmim_sq w=4 l=4 m=1
+C8 (net4 net5) cmim_sq w=4 l=4 m=1
+C9 (net6 net2) cmim_sq w=4 l=4 m=1
+C19 (net6 net8) cmim_sq w=4 l=4 m=1
+I40 (v10 GND net19 Vdd) DAC_switch
+I37 (v9 GND net18 Vdd) DAC_switch
+I36 (v8 GND net12 Vdd) DAC_switch
+I33 (v7 GND net16 Vdd) DAC_switch
+I22 (v6 GND net13 Vdd) DAC_switch
+I20 (v5 GND net9 Vdd) DAC_switch
+I18 (v4 GND net7 Vdd) DAC_switch
+I13 (v2 GND net5 Vdd) DAC_switch
+I12 (v1 GND net1 Vdd) DAC_switch
+I16 (v3 GND net2 Vdd) DAC_switch
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
