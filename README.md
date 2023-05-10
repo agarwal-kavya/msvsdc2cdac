@@ -238,11 +238,21 @@ The schematic obtained by replacing all the voltage sources is as:
 ![sch](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/72ba7eff-8aa9-4326-8518-308d3216322b)
 
 
-## 8. LAYOUT
+## 8. LAYOUT of 10 bit C2C DAC created in Cadence Virtuoso using SCL180 pdk:
 
 The obtained layout is as:
 
-![lay](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/30939c8d-9cf3-41b9-bc06-e4ad63fd9a0c)
+![Screenshot from 2023-05-10 12-23-29](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/fbb7a291-121e-4ff4-a481-b08068304993)
+
+
+### Magnified images of layout:
+
+![Screenshot from 2023-05-10 12-24-05](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/11c74022-ab3d-41f1-8560-4f6cdf9d10f0)
+
+![Screenshot from 2023-05-10 12-24-43](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/4464919a-ad5d-41ae-88da-dc22419926e5)
+
+![Screenshot from 2023-05-10 12-24-54](https://github.com/agarwal-kavya/msvsdc2cdac/assets/110079729/1049f52f-51cd-4e1e-a844-52009dd9566a)
+
 
 
 ## 9. Contributors 
